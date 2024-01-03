@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding-block: 10px;
+    
+}
+.navbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 50px;
+}
+.logo-part{
+    width: 35%; 
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.logo-part img{
+    width: 100px;
+}
+.list{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.button-part{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+} 
+.list li{
+    list-style: none;
+    color: grey;
+}  
+.list li:first-child{
+    color: black;
+    border-bottom: 2px solid blue;
+}
+.button-part button{
+    width: 140px;
+    height: 55px;
+    background-color: rgb(248, 218, 228);
+    color: blue;
+    border: none;
+    border-radius: 20px;
+}
+.banner-part{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 20px;
+}
+.left-part{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 70px;
+
+}
+.text h1{
+    font-size: 70px;
+
+}
+.text p{
+    color: rgb(71, 71, 71);
+    margin-top: 30px;
+    font-size: 23px;
+    line-height: 30px;
+}
+.btn-part{
+ 
+}
+.btn-part button{
+    width: 140px;
+    height: 55px;
+    background-color: rgb(73, 73, 238);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    margin-top: 50px;
+}
+.btn-part span button{
+    width: 60px;
+    height: 55px;
+    color: black;
+    background-color: transparent;
+    border: 1px solid rgb(179, 178, 178);
+    border-radius: 20px;
+    font-size: 18px;
+    margin-left: 30px;
+}
+    
+.right-part{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-part img{
+    width: 450px;
+}
+
+.lists{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.lists li{
+    list-style: none;
+
+}
+.lists li img{
+    width: 60px;
+}
+.lists li:nth-child(2){
+    font-size: 16px;
+    font-weight: 700;
+}
+.lists li:nth-child(3){
+    font-size: 28px;
+    color: rgb(187, 187, 187);
+    font-family: 'Wedding';
+}
+.lists li:nth-child(4){
+    font-size: 28px;
+    color: rgb(187, 187, 187);
+   
+}
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+
+
+@media (max-width : 768) {
+    
+        .main-container{
+            width: 100%;
+            height: auto;
+        }
+        .navbar{
+            width: 100%;
+            height: auto;
+            padding-inline: 10px;
+        }
+        .logo-part{
+            width: 20%;
+
+        }
+        .logo-part img{
+            width: 70px;
+        }
+        .list{
+            width: 50%;
+        }
+        .button-part{
+            width: 30%;
+        }
+        .button-part button{
+            width: 80px;
+        }
+        .banner-part{
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding-block: 20px;
+        }
+        .left-part{
+            width: 100%;
+
+        }
+        .right-part{
+            width: 100%;
+        }
+       
+}
